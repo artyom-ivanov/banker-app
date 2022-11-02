@@ -10,20 +10,46 @@
 		9A44CB8E2912D56F007DEEC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CB8D2912D56F007DEEC1 /* AppDelegate.swift */; };
 		9A44CB902912D56F007DEEC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CB8F2912D56F007DEEC1 /* SceneDelegate.swift */; };
 		9A44CB922912D56F007DEEC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CB912912D56F007DEEC1 /* ViewController.swift */; };
-		9A44CB952912D56F007DEEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A44CB932912D56F007DEEC1 /* Main.storyboard */; };
 		9A44CB972912D570007DEEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A44CB962912D570007DEEC1 /* Assets.xcassets */; };
 		9A44CB9A2912D570007DEEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A44CB982912D570007DEEC1 /* LaunchScreen.storyboard */; };
+		9A44CBA82912D96E007DEEC1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBA72912D96E007DEEC1 /* LoginViewController.swift */; };
+		9A44CBAB2912DC84007DEEC1 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBAA2912DC84007DEEC1 /* LoginManager.swift */; };
+		9A44CBAD2912E049007DEEC1 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBAC2912E049007DEEC1 /* Typography.swift */; };
+		9A44CBAF2912F27A007DEEC1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBAE2912F27A007DEEC1 /* Theme.swift */; };
+		9A44CBB129130033007DEEC1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBB029130033007DEEC1 /* LoginViewModel.swift */; };
+		9A44CBB32913065F007DEEC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A44CBB22913065F007DEEC1 /* GoogleService-Info.plist */; };
+		9A44CBB6291308A7007DEEC1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBB5291308A7007DEEC1 /* MainViewController.swift */; };
+		9A44CBB829130C56007DEEC1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBB729130C56007DEEC1 /* Router.swift */; };
+		9A44CBBB291311C8007DEEC1 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBBA291311C8007DEEC1 /* LoaderViewController.swift */; };
+		9A44CBBD29131338007DEEC1 /* LoaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBBC29131338007DEEC1 /* LoaderViewModel.swift */; };
+		9A44CBBF29131636007DEEC1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBBE29131636007DEEC1 /* MainViewModel.swift */; };
+		9A44CBC12913190A007DEEC1 /* Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBC02913190A007DEEC1 /* Binder.swift */; };
+		BDB5800115F6F4D1AFF647BA /* Pods_banker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D212499E8985490CF63D29 /* Pods_banker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		334E93B83738FCBC4AE9FE2C /* Pods-banker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banker.debug.xcconfig"; path = "Target Support Files/Pods-banker/Pods-banker.debug.xcconfig"; sourceTree = "<group>"; };
+		39D212499E8985490CF63D29 /* Pods_banker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_banker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A44CB8A2912D56F007DEEC1 /* banker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = banker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A44CB8D2912D56F007DEEC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A44CB8F2912D56F007DEEC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9A44CB912912D56F007DEEC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9A44CB942912D56F007DEEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A44CB962912D570007DEEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A44CB992912D570007DEEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A44CB9B2912D570007DEEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A44CBA72912D96E007DEEC1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9A44CBAA2912DC84007DEEC1 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		9A44CBAC2912E049007DEEC1 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		9A44CBAE2912F27A007DEEC1 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9A44CBB029130033007DEEC1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9A44CBB22913065F007DEEC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A44CBB5291308A7007DEEC1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9A44CBB729130C56007DEEC1 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		9A44CBBA291311C8007DEEC1 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		9A44CBBC29131338007DEEC1 /* LoaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewModel.swift; sourceTree = "<group>"; };
+		9A44CBBE29131636007DEEC1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		9A44CBC02913190A007DEEC1 /* Binder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binder.swift; sourceTree = "<group>"; };
+		E099A626DA3A8D85A703E9B0 /* Pods-banker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banker.release.xcconfig"; path = "Target Support Files/Pods-banker/Pods-banker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB5800115F6F4D1AFF647BA /* Pods_banker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03956D9CD51C5E17F2100F92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39D212499E8985490CF63D29 /* Pods_banker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A44CB812912D56F007DEEC1 = {
 			isa = PBXGroup;
 			children = (
 				9A44CB8C2912D56F007DEEC1 /* banker */,
 				9A44CB8B2912D56F007DEEC1 /* Products */,
+				AF343368677BE78BE5BC59FC /* Pods */,
+				03956D9CD51C5E17F2100F92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,91 @@
 		9A44CB8C2912D56F007DEEC1 /* banker */ = {
 			isa = PBXGroup;
 			children = (
+				9A44CBA92912DC6B007DEEC1 /* Shared */,
+				9A44CBA52912D761007DEEC1 /* Screens */,
+				9A44CBA22912D5BC007DEEC1 /* Config */,
+				9A44CBA12912D5AE007DEEC1 /* Model */,
 				9A44CB8D2912D56F007DEEC1 /* AppDelegate.swift */,
 				9A44CB8F2912D56F007DEEC1 /* SceneDelegate.swift */,
 				9A44CB912912D56F007DEEC1 /* ViewController.swift */,
-				9A44CB932912D56F007DEEC1 /* Main.storyboard */,
 				9A44CB962912D570007DEEC1 /* Assets.xcassets */,
-				9A44CB982912D570007DEEC1 /* LaunchScreen.storyboard */,
 				9A44CB9B2912D570007DEEC1 /* Info.plist */,
+				9A44CBB22913065F007DEEC1 /* GoogleService-Info.plist */,
 			);
 			path = banker;
+			sourceTree = "<group>";
+		};
+		9A44CBA12912D5AE007DEEC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A44CBA22912D5BC007DEEC1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9A44CBA52912D761007DEEC1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9A44CBB9291311BB007DEEC1 /* Loader */,
+				9A44CBB429130895007DEEC1 /* Main */,
+				9A44CBA62912D7B7007DEEC1 /* Login */,
+				9A44CB982912D570007DEEC1 /* LaunchScreen.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9A44CBA62912D7B7007DEEC1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9A44CBA72912D96E007DEEC1 /* LoginViewController.swift */,
+				9A44CBB029130033007DEEC1 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9A44CBA92912DC6B007DEEC1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9A44CBAA2912DC84007DEEC1 /* LoginManager.swift */,
+				9A44CBAC2912E049007DEEC1 /* Typography.swift */,
+				9A44CBAE2912F27A007DEEC1 /* Theme.swift */,
+				9A44CBB729130C56007DEEC1 /* Router.swift */,
+				9A44CBC02913190A007DEEC1 /* Binder.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9A44CBB429130895007DEEC1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9A44CBB5291308A7007DEEC1 /* MainViewController.swift */,
+				9A44CBBE29131636007DEEC1 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9A44CBB9291311BB007DEEC1 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				9A44CBBA291311C8007DEEC1 /* LoaderViewController.swift */,
+				9A44CBBC29131338007DEEC1 /* LoaderViewModel.swift */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		AF343368677BE78BE5BC59FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				334E93B83738FCBC4AE9FE2C /* Pods-banker.debug.xcconfig */,
+				E099A626DA3A8D85A703E9B0 /* Pods-banker.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A44CB9E2912D570007DEEC1 /* Build configuration list for PBXNativeTarget "banker" */;
 			buildPhases = (
+				BB7F4B5908600D427D831588 /* [CP] Check Pods Manifest.lock */,
 				9A44CB862912D56F007DEEC1 /* Sources */,
 				9A44CB872912D56F007DEEC1 /* Frameworks */,
 				9A44CB882912D56F007DEEC1 /* Resources */,
+				7506450A04E072ECED530801 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +242,79 @@
 			files = (
 				9A44CB9A2912D570007DEEC1 /* LaunchScreen.storyboard in Resources */,
 				9A44CB972912D570007DEEC1 /* Assets.xcassets in Resources */,
-				9A44CB952912D56F007DEEC1 /* Main.storyboard in Resources */,
+				9A44CBB32913065F007DEEC1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7506450A04E072ECED530801 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-banker/Pods-banker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-banker/Pods-banker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-banker/Pods-banker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB7F4B5908600D427D831588 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-banker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A44CB862912D56F007DEEC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A44CBAB2912DC84007DEEC1 /* LoginManager.swift in Sources */,
+				9A44CBC12913190A007DEEC1 /* Binder.swift in Sources */,
 				9A44CB922912D56F007DEEC1 /* ViewController.swift in Sources */,
+				9A44CBBB291311C8007DEEC1 /* LoaderViewController.swift in Sources */,
+				9A44CBBD29131338007DEEC1 /* LoaderViewModel.swift in Sources */,
+				9A44CBB829130C56007DEEC1 /* Router.swift in Sources */,
+				9A44CBBF29131636007DEEC1 /* MainViewModel.swift in Sources */,
 				9A44CB8E2912D56F007DEEC1 /* AppDelegate.swift in Sources */,
+				9A44CBAD2912E049007DEEC1 /* Typography.swift in Sources */,
+				9A44CBB129130033007DEEC1 /* LoginViewModel.swift in Sources */,
 				9A44CB902912D56F007DEEC1 /* SceneDelegate.swift in Sources */,
+				9A44CBB6291308A7007DEEC1 /* MainViewController.swift in Sources */,
+				9A44CBA82912D96E007DEEC1 /* LoginViewController.swift in Sources */,
+				9A44CBAF2912F27A007DEEC1 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9A44CB932912D56F007DEEC1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A44CB942912D56F007DEEC1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A44CB982912D570007DEEC1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +442,7 @@
 		};
 		9A44CB9F2912D570007DEEC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334E93B83738FCBC4AE9FE2C /* Pods-banker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,8 +452,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = banker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +470,7 @@
 		};
 		9A44CBA02912D570007DEEC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E099A626DA3A8D85A703E9B0 /* Pods-banker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,8 +480,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = banker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
