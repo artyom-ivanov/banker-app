@@ -24,6 +24,10 @@
 		9A44CBBD29131338007DEEC1 /* LoaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBBC29131338007DEEC1 /* LoaderViewModel.swift */; };
 		9A44CBBF29131636007DEEC1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBBE29131636007DEEC1 /* MainViewModel.swift */; };
 		9A44CBC12913190A007DEEC1 /* Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBC02913190A007DEEC1 /* Binder.swift */; };
+		9A44CBC329143145007DEEC1 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBC229143145007DEEC1 /* RoomCell.swift */; };
+		9A44CBC5291432C4007DEEC1 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBC4291432C4007DEEC1 /* Room.swift */; };
+		9A44CBC729143334007DEEC1 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBC629143334007DEEC1 /* Transaction.swift */; };
+		9A44CBC929143363007DEEC1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44CBC829143363007DEEC1 /* User.swift */; };
 		BDB5800115F6F4D1AFF647BA /* Pods_banker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D212499E8985490CF63D29 /* Pods_banker.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +53,10 @@
 		9A44CBBC29131338007DEEC1 /* LoaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewModel.swift; sourceTree = "<group>"; };
 		9A44CBBE29131636007DEEC1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		9A44CBC02913190A007DEEC1 /* Binder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binder.swift; sourceTree = "<group>"; };
+		9A44CBC229143145007DEEC1 /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		9A44CBC4291432C4007DEEC1 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		9A44CBC629143334007DEEC1 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		9A44CBC829143363007DEEC1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E099A626DA3A8D85A703E9B0 /* Pods-banker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banker.release.xcconfig"; path = "Target Support Files/Pods-banker/Pods-banker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +118,9 @@
 		9A44CBA12912D5AE007DEEC1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9A44CBC4291432C4007DEEC1 /* Room.swift */,
+				9A44CBC629143334007DEEC1 /* Transaction.swift */,
+				9A44CBC829143363007DEEC1 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,6 +169,7 @@
 			children = (
 				9A44CBB5291308A7007DEEC1 /* MainViewController.swift */,
 				9A44CBBE29131636007DEEC1 /* MainViewModel.swift */,
+				9A44CBC229143145007DEEC1 /* RoomCell.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -297,9 +309,11 @@
 			files = (
 				9A44CBAB2912DC84007DEEC1 /* LoginManager.swift in Sources */,
 				9A44CBC12913190A007DEEC1 /* Binder.swift in Sources */,
+				9A44CBC5291432C4007DEEC1 /* Room.swift in Sources */,
 				9A44CB922912D56F007DEEC1 /* ViewController.swift in Sources */,
 				9A44CBBB291311C8007DEEC1 /* LoaderViewController.swift in Sources */,
 				9A44CBBD29131338007DEEC1 /* LoaderViewModel.swift in Sources */,
+				9A44CBC729143334007DEEC1 /* Transaction.swift in Sources */,
 				9A44CBB829130C56007DEEC1 /* Router.swift in Sources */,
 				9A44CBBF29131636007DEEC1 /* MainViewModel.swift in Sources */,
 				9A44CB8E2912D56F007DEEC1 /* AppDelegate.swift in Sources */,
@@ -307,7 +321,9 @@
 				9A44CBB129130033007DEEC1 /* LoginViewModel.swift in Sources */,
 				9A44CB902912D56F007DEEC1 /* SceneDelegate.swift in Sources */,
 				9A44CBB6291308A7007DEEC1 /* MainViewController.swift in Sources */,
+				9A44CBC929143363007DEEC1 /* User.swift in Sources */,
 				9A44CBA82912D96E007DEEC1 /* LoginViewController.swift in Sources */,
+				9A44CBC329143145007DEEC1 /* RoomCell.swift in Sources */,
 				9A44CBAF2912F27A007DEEC1 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

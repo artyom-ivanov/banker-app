@@ -17,6 +17,15 @@ struct Typography {
         return heading
     }
     
+    static func navHeading(_ text: String) -> UILabel {
+        let heading = UILabel()
+        heading.text = text
+        heading.font = UIFont.boldSystemFont(ofSize: 28)
+        
+        heading.translatesAutoresizingMaskIntoConstraints = false
+        return heading
+    }
+    
     static func body(_ text: String) -> UILabel {
         let body = UILabel()
         body.text = text

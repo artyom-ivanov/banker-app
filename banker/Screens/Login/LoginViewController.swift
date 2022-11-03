@@ -24,11 +24,24 @@ class LoginViewController: UIViewController {
     
     func setupBindings() {
         viewModel.isLoading.bind { [weak self] isLoading in
-            self?.signInButton?.isEnabled = !isLoading
+            self?.signInButton?.isUserInteractionEnabled = !isLoading
+            self?.signInButton?.configuration?.showsActivityIndicator = isLoading
         }
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     func initMarkup() {
+        // Background
+        let imageView = UIImageView(frame: view.bounds)
+        imageView.contentMode =  .scaleAspectFill
+        imageView.clipsToBounds = true
+        imageView.image = Theme.bgImage
+        imageView.center = view.center
+        view.addSubview(imageView)
+        
         // Grid
         let guide = view.safeAreaLayoutGuide
         
@@ -37,9 +50,21 @@ class LoginViewController: UIViewController {
         self.view.addSubview(grid)
         
         // Content
-        let heading = Typography.heading("Hello! 👋")
+        let handIcon = NSTextAttachment()
+        handIcon.image = UIImage(systemName: "hand.wave")?.withTintColor(.white)
+        handIcon.bounds = CGRect(x: 0, y: 0, width: 36, height: 36)
+        
+        let headingString = NSMutableAttributedString(string: "Hello! ")
+        headingString.append(NSAttributedString(attachment: handIcon))
+        
+        let heading = Typography.heading("")
+        heading.attributedText = headingString
         let body1 = Typography.body("It’s a banker — app for fake payments between closed groups.")
         let body2 = Typography.body("For example, if you are going to play table monopoly with your friends, but all paper money has been lost. Create a room, invite your friends and use your phones as wallets.")
+        
+        heading.textColor = .white
+        body1.textColor = .white
+        body2.textColor = .white
         
         let contentWraper = UIView()
         contentWraper.translatesAutoresizingMaskIntoConstraints = false
@@ -52,12 +77,13 @@ class LoginViewController: UIViewController {
         container.font = UIFont.systemFont(ofSize: 16, weight: .medium)
         
         var buttonConfig = UIButton.Configuration.filled()
-        buttonConfig.baseBackgroundColor = .black
+        buttonConfig.baseBackgroundColor = .white
+        
         buttonConfig.imagePadding = 12
         buttonConfig.title = "Sign in with Apple"
         buttonConfig.attributedTitle = AttributedString("Sign in with Apple", attributes: container)
         buttonConfig.image = UIImage(systemName: "apple.logo")
-        buttonConfig.baseForegroundColor = .white
+        buttonConfig.baseForegroundColor = .black
         buttonConfig.cornerStyle = .capsule
         
         let button = UIButton()

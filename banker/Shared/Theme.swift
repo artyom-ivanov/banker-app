@@ -11,3 +11,7 @@ struct Palette {
     static let bg = UIColor(red: 241, green: 241, blue: 248, alpha: 1)
     static let primary = UIColor(red: 255, green: 138, blue: 0, alpha: 1)
 }
+
+struct Theme {
+    static let bgImage = UIImage(named: "bg")!
+}
